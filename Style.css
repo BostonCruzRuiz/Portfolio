@@ -1,3 +1,21 @@
-body{
-    background-color: dodgerblue;
+body {
+    width: 100vw;
+    height: 100vh;
+    margin:0;
+    background: #222;
 }
+.section1, .section2 {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+.section2 {
+    background: rgb(68,35,19);
+}
+.text {
+    top:30%;
+    left:50%;
+position: absolute;
+font-family: 'Franklin Gothic Heavy';
+font-size: 15vw;
+color:white;
