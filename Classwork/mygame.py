@@ -2,7 +2,9 @@ import pygame
 
 WIDTH, HEIGHT = 900, 500
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption('Pygame Bs')
+pygame.display.set_caption('Pygame Game')
+
+WHITE = (255, 255, 255)
 
 def main():
     run = True
@@ -12,7 +14,7 @@ def main():
                 run = False
 
 
-
+        WIN.fill(WHITE)
 
     pygame.quit()
 
