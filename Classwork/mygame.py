@@ -6,15 +6,18 @@ pygame.display.set_caption('Pygame Game')
 
 WHITE = (255, 255, 255)
 
+
+def draw_windows():
+    WIN.fill(WHITE)
+    pygame.display.update()
+
+
 def main():
     run = True
     while run:
         for event in pygame.event.get():
             if event.tpye == pygame.QUIT:
                 run = False
-
-
-        WIN.fill(WHITE)
 
     pygame.quit()
 
