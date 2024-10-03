@@ -1,7 +1,5 @@
-# Output is what happened when the code is run
-
-print('Hey')
-print("Hi")
-print(1)
-print(2)
-print(3)
+print('a' + 'b' + 'c', sep='*')
+print("a+b+c", "c+b+a", sep='n')
+print('a' + 'b' + 'c', end='*')
+print('a' + 'b' + 'c', sep= '*', end= "*")
+print('a' + 'b' + 'c', "a+b+c", "c+b+a", sep= 'n', end= 'n')
