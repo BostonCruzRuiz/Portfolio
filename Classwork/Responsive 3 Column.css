@@ -1,0 +1,22 @@
+.responsive-three-column-grid {
+    display:block;
+}
+.responsive-three-column-grid > * {
+    padding:1rem;
+}
+@media (min-width:768px) {
+    .responsive-three-column-grid {
+        display: grid;
+        grid-auto-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+#R_One {
+background-color: #a29bfe;
+}
+#R_Two {
+    background-color: #93415e;
+}
+#R_Th {
+    background-color: #564ebd;
+}

@@ -1,0 +1,17 @@
+.three-columns-grid {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.three-columns-grid > * {
+    padding:1rem;
+}
+#one {
+    background-color: #275065;
+}
+#two {
+    background-color: #3c8734;
+}
+#th {
+    background-color: #8f2b1a;
+}
