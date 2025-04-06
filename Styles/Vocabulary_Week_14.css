@@ -1,0 +1,20 @@
+nav {
+    pointer-events: none;
+    color: gray;
+}
+body {
+    background-color: darkcyan;
+}
+
+h1 {
+    color: white;
+
+}
+h2 {
+    color: #82d35f;
+}
+
+p {
+    color: #e33f3f;
+
+}
